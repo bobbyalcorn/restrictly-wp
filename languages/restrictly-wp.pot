@@ -1,0 +1,385 @@
+# Copyright (C) 2025 Bobby Alcorn
+# This file is distributed under the GPL-2.0+.
+msgid ""
+msgstr ""
+"Project-Id-Version: Restrictly 0.1.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/restrictly-wp\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2025-12-05T21:14:36+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: restrictly-wp\n"
+
+#. Plugin Name of the plugin
+#: restrictly-wp.php
+#: includes/admin/class-settings.php:62
+msgid "Restrictly"
+msgstr ""
+
+#. Plugin URI of the plugin
+#: restrictly-wp.php
+msgid "https://restrictlypro.com"
+msgstr ""
+
+#. Description of the plugin
+#: restrictly-wp.php
+msgid "Restrictly is a lightweight, performance-focused access control plugin that lets you restrict content and menus based on user roles and login status. Unlike bloated membership plugins, Restrictly provides professional-grade access control without compromising your site's speed or adding unnecessary features. Built for expansion, it integrates seamlessly through an intuitive interface."
+msgstr ""
+
+#. Author of the plugin
+#: restrictly-wp.php
+msgid "Bobby Alcorn"
+msgstr ""
+
+#. Author URI of the plugin
+#: restrictly-wp.php
+msgid "https://github.com/bobbyalcorn"
+msgstr ""
+
+#: includes/admin/class-bulkeditcontenttype.php:99
+msgid "Restrictly Content Visibility Bulk Edit"
+msgstr ""
+
+#: includes/admin/class-bulkeditcontenttype.php:106
+#: includes/admin/class-bulkeditcontenttype.php:107
+#: includes/admin/class-quickeditcontenttype.php:89
+#: includes/admin/class-quickeditcontenttype.php:90
+#: includes/admin/class-standardeditcontenttype.php:111
+#: includes/admin/class-standardeditcontenttype.php:112
+msgid "Login Status:"
+msgstr ""
+
+#: includes/admin/class-bulkeditcontenttype.php:109
+#: includes/admin/class-bulkeditcontenttype.php:158
+msgid "- No Change -"
+msgstr ""
+
+#: includes/admin/class-bulkeditcontenttype.php:110
+#: includes/admin/class-contenttypebase.php:109
+#: includes/admin/class-menus.php:647
+#: includes/admin/class-quickeditcontenttype.php:92
+#: includes/admin/class-standardeditcontenttype.php:115
+msgid "Everyone"
+msgstr ""
+
+#: includes/admin/class-bulkeditcontenttype.php:111
+#: includes/admin/class-contenttypebase.php:105
+#: includes/admin/class-menus.php:648
+#: includes/admin/class-quickeditcontenttype.php:93
+#: includes/admin/class-standardeditcontenttype.php:118
+msgid "Logged In Users"
+msgstr ""
+
+#: includes/admin/class-bulkeditcontenttype.php:112
+#: includes/admin/class-contenttypebase.php:107
+#: includes/admin/class-menus.php:649
+#: includes/admin/class-quickeditcontenttype.php:94
+#: includes/admin/class-standardeditcontenttype.php:121
+msgid "Logged Out Users"
+msgstr ""
+
+#: includes/admin/class-bulkeditcontenttype.php:123
+#: includes/admin/class-quickeditcontenttype.php:105
+#: includes/admin/class-standardeditcontenttype.php:132
+msgid "Specific Roles:"
+msgstr ""
+
+#: includes/admin/class-bulkeditcontenttype.php:155
+#: includes/admin/class-bulkeditcontenttype.php:156
+#: includes/admin/class-quickeditcontenttype.php:133
+#: includes/admin/class-quickeditcontenttype.php:134
+#: includes/admin/class-standardeditcontenttype.php:157
+#: includes/admin/class-standardeditcontenttype.php:158
+msgid "Enforcement Action:"
+msgstr ""
+
+#: includes/admin/class-bulkeditcontenttype.php:159
+#: includes/admin/class-contenttypebase.php:130
+#: includes/admin/class-quickeditcontenttype.php:136
+#: includes/admin/class-standardeditcontenttype.php:161
+msgid "Use Default"
+msgstr ""
+
+#: includes/admin/class-bulkeditcontenttype.php:160
+#: includes/admin/class-bulkeditcontenttype.php:173
+#: includes/admin/class-contenttypebase.php:124
+#: includes/admin/class-quickeditcontenttype.php:137
+#: includes/admin/class-quickeditcontenttype.php:150
+#: includes/admin/class-standardeditcontenttype.php:164
+#: includes/admin/class-standardeditcontenttype.php:180
+msgid "Custom Message"
+msgstr ""
+
+#: includes/admin/class-bulkeditcontenttype.php:161
+#: includes/admin/class-contenttypebase.php:126
+#: includes/admin/class-quickeditcontenttype.php:138
+#: includes/admin/class-standardeditcontenttype.php:167
+msgid "Custom URL"
+msgstr ""
+
+#: includes/admin/class-bulkeditcontenttype.php:172
+#: includes/admin/class-quickeditcontenttype.php:149
+#: includes/admin/class-standardeditcontenttype.php:179
+msgid "Custom Message:"
+msgstr ""
+
+#: includes/admin/class-bulkeditcontenttype.php:185
+#: includes/admin/class-bulkeditcontenttype.php:186
+#: includes/admin/class-quickeditcontenttype.php:162
+#: includes/admin/class-quickeditcontenttype.php:163
+#: includes/admin/class-standardeditcontenttype.php:192
+#: includes/admin/class-standardeditcontenttype.php:193
+msgid "Custom Forward URL:"
+msgstr ""
+
+#: includes/admin/class-bulkeditcontenttype.php:217
+msgid "Security check failed"
+msgstr ""
+
+#: includes/admin/class-bulkeditcontenttype.php:222
+msgid "Invalid request"
+msgstr ""
+
+#: includes/admin/class-bulkeditcontenttype.php:261
+msgid "No changes were provided."
+msgstr ""
+
+#: includes/admin/class-bulkeditcontenttype.php:278
+msgid "Bulk edit successful!"
+msgstr ""
+
+#: includes/admin/class-contenttypebase.php:128
+msgid "-"
+msgstr ""
+
+#: includes/admin/class-contenttypebase.php:147
+msgid "Logged In Status"
+msgstr ""
+
+#: includes/admin/class-contenttypebase.php:148
+msgid "User Role"
+msgstr ""
+
+#: includes/admin/class-contenttypebase.php:149
+msgid "Enforcement Action"
+msgstr ""
+
+#: includes/admin/class-contenttypebase.php:171
+msgid "Any"
+msgstr ""
+
+#: includes/admin/class-menus.php:211
+#: includes/admin/class-menus.php:223
+#: includes/admin/class-menus.php:234
+msgid "Notice:"
+msgstr ""
+
+#: includes/admin/class-menus.php:212
+msgid "The current theme does not support menus. Menu restrictions will not be applied."
+msgstr ""
+
+#: includes/admin/class-menus.php:224
+msgid "No menus have been detected. To enforce menu restrictions, please assign a menu in"
+msgstr ""
+
+#: includes/admin/class-menus.php:226
+msgid "Appearance > Menus"
+msgstr ""
+
+#: includes/admin/class-menus.php:227
+msgid "Menu restrictions will not be applied until a menu is created."
+msgstr ""
+
+#: includes/admin/class-menus.php:235
+msgid "No registered menus have been detected. Menu restrictions will not be applied until a menu is created."
+msgstr ""
+
+#: includes/admin/class-menus.php:254
+msgid "Restrictly Notice:"
+msgstr ""
+
+#. translators: %d is the number of menu items with mismatched restrictions.
+#: includes/admin/class-menus.php:260
+#, php-format
+msgid "There is %d menu item with mismatched restrictions."
+msgid_plural "There are %d menu items with mismatched restrictions."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/admin/class-menus.php:534
+#: includes/admin/class-menus.php:595
+msgid "Invalid setup: \"Everyone\" cannot have role restrictions selected."
+msgstr ""
+
+#: includes/admin/class-menus.php:564
+msgid "Role mismatch. Page has no role restrictions."
+msgstr ""
+
+#: includes/admin/class-menus.php:572
+msgid "Role mismatch. Page allows only:"
+msgstr ""
+
+#: includes/admin/class-menus.php:579
+msgid "Role mismatch. Menu has no role restrictions. Page allows only:"
+msgstr ""
+
+#: includes/admin/class-menus.php:590
+msgid "Visibility mismatch. Page requires:"
+msgstr ""
+
+#: includes/admin/class-menus.php:602
+msgid "Page has no restrictions. Menu should be set to \"Everyone\" with no roles."
+msgstr ""
+
+#: includes/admin/class-menus.php:630
+msgid "Restrictly Menu Visibility"
+msgstr ""
+
+#: includes/admin/class-menus.php:642
+msgid "Visibility:"
+msgstr ""
+
+#: includes/admin/class-menus.php:661
+msgid "Allowed Roles:"
+msgstr ""
+
+#: includes/admin/class-quickeditcontenttype.php:80
+#: includes/admin/class-standardeditcontenttype.php:68
+msgid "Restrictly Content Visibility"
+msgstr ""
+
+#: includes/admin/class-settings.php:61
+#: includes/admin/class-settings.php:121
+msgid "Restrictly Settings"
+msgstr ""
+
+#: includes/admin/class-settings.php:79
+msgid "You do not have permission to access this page."
+msgstr ""
+
+#: includes/admin/class-settings.php:128
+msgid "Automatic Cleanup:"
+msgstr ""
+
+#: includes/admin/class-settings.php:129
+msgid "When you uninstall Restrictly™, all saved options, visibility settings, and post meta are fully removed for a clean uninstall."
+msgstr ""
+
+#: includes/admin/class-settings.php:136
+msgid "Access Control"
+msgstr ""
+
+#: includes/admin/class-settings.php:140
+#: includes/admin/class-settings.php:247
+msgid "Menu Restrictions"
+msgstr ""
+
+#: includes/admin/class-settings.php:152
+msgid "Access Control Settings"
+msgstr ""
+
+#: includes/admin/class-settings.php:155
+msgid "Content Types"
+msgstr ""
+
+#: includes/admin/class-settings.php:156
+msgid "Select the content types that you want to restrict access to."
+msgstr ""
+
+#: includes/admin/class-settings.php:170
+msgid "Default Content Enforcement Action"
+msgstr ""
+
+#: includes/admin/class-settings.php:172
+msgid "This determines what happens when a user tries to access a restricted post, page, or other content type. It does not affect menu or navigation visibility."
+msgstr ""
+
+#: includes/admin/class-settings.php:181
+msgid "Show a Message"
+msgstr ""
+
+#: includes/admin/class-settings.php:184
+msgid "Forward to a URL"
+msgstr ""
+
+#: includes/admin/class-settings.php:192
+msgid "Default Message"
+msgstr ""
+
+#: includes/admin/class-settings.php:199
+msgid "Forward URL"
+msgstr ""
+
+#: includes/admin/class-settings.php:209
+msgid "Always Allow Administrators"
+msgstr ""
+
+#: includes/admin/class-settings.php:210
+msgid "When enabled, Administrators can always view and edit all content regardless of Restrictly™ restrictions."
+msgstr ""
+
+#: includes/admin/class-settings.php:215
+msgid "Always allow Administrators full access"
+msgstr ""
+
+#: includes/admin/class-settings.php:223
+msgid "Block Editor Visibility"
+msgstr ""
+
+#: includes/admin/class-settings.php:226
+msgid "Control whether Restrictly™ visibility indicators appear inside Full Site Editing (FSE) Navigation menus. This helps keep your workspace clean when editing menus."
+msgstr ""
+
+#: includes/admin/class-settings.php:236
+msgid "Show visibility indicators in Navigation menus"
+msgstr ""
+
+#: includes/admin/class-settings.php:251
+msgid "Heads up!"
+msgstr ""
+
+#: includes/admin/class-settings.php:252
+msgid "You are using a Full Site Editing (block-based) theme. Restrictly™ will manage Navigation block visibility directly inside the Site Editor instead of traditional menus."
+msgstr ""
+
+#: includes/admin/class-settings.php:258
+msgid "Mismatch Highlighting"
+msgstr ""
+
+#: includes/admin/class-settings.php:262
+msgid "Visually highlight menu items that may have permission inconsistencies."
+msgstr ""
+
+#: includes/admin/class-settings.php:273
+msgid "Save Settings"
+msgstr ""
+
+#: includes/admin/class-settings.php:382
+msgid "Restrictly settings have been saved."
+msgstr ""
+
+#: includes/common/class-base.php:279
+msgid "Settings"
+msgstr ""
+
+#: includes/common/class-enforcement.php:104
+#: includes/common/class-enforcement.php:182
+msgid "You do not have permission to view this content."
+msgstr ""
+
+#: includes/common/class-enforcement.php:168
+msgid "Redirect Loop Detected: You cannot access this content."
+msgstr ""
+
+#: includes/common/class-enforcement.php:169
+#: includes/common/class-enforcement.php:183
+msgid "Access Denied"
+msgstr ""
+
+#: assets/js/bulk-edit-content-type.js:157
+msgid "Bulk edit failed:"
+msgstr ""
